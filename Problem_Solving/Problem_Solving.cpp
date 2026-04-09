@@ -102,6 +102,47 @@
 //}
 #pragma endregion
 //=============================================
+#pragma region Solve Array Frequency With Map + With Vector
+#include<iostream>
+#include<map>
+#include<vector>
+using namespace std;
+int main()
+{
+	/*map<int, int>m;
+	int n, x;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> x;
+		m[x]++;
+	}
+	for (auto i : m)
+	{
+		cout << "Frequency of " << "[" << i.first << "]" << ": " << i.second << "\n";
+	}*/
+	vector<int> v;
+	int Freq[Max_Val] = {};
+	int n, x;
+
+	cin >> n;
+
+	for (int i = 0; i < n; i++)
+	{
+		cin >> x;
+		v.push_back(x);
+		Freq[x]++;
+	}
+
+
+	return 0;
+}
+
+
+
+
+#pragma endregion
+//=============================================
 #pragma region Problem فى الشرح 
 //https://codeforces.com/problemset/problem/816/B 
 /*
