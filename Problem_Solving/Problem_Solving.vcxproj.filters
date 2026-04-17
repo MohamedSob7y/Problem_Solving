@@ -13,10 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Examples_Slides">
+      <UniqueIdentifier>{484dd9e5-a707-45e0-b8dc-149cae234191}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem_Solving.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\home\Downloads\Static Range_Query.txt">
+      <Filter>Examples_Slides</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\home\Downloads\Example.png">
+      <Filter>Examples_Slides</Filter>
+    </Image>
+    <Image Include="C:\Users\home\Downloads\ExampleString.png">
+      <Filter>Examples_Slides</Filter>
+    </Image>
   </ItemGroup>
 </Project>

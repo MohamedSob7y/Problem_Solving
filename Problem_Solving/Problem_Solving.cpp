@@ -102,39 +102,125 @@
 //}
 #pragma endregion
 //=============================================
-#pragma region Solve Array Frequency With Map + With Vector
+#pragma region Before Frequncy_After FreqnecyWithVectorandMapWithInt_String_Chars
 #include<iostream>
 #include<map>
 #include<vector>
+#include<unordered_map>
+#include<string>
 using namespace std;
 int main()
 {
-	/*map<int, int>m;
-	int n, x;
+     #pragma region Before Frequency 
+	//int n;
+	//cin >> n;
+
+	//int A[n];
+	//for (int i = 0; i < n; i++) {
+	//	cin >> A[i];
+	//}
+
+	//// نعد لكل عنصر
+	//for (int i = 0; i < n; i++) {
+	//	int count = 0;
+
+	//	for (int j = 0; j < n; j++) {
+	//		if (A[j] == A[i]) {
+	//			count++;
+	//		}
+	//	}
+
+	//	cout << "Frequency of " << A[i] << " is " << count << endl;
+	//}
+
+#pragma endregion
+	 //============================================================
+     #pragma region Freqnccy With Vector_Int
+	//With Freqnccy With Vector_Int O(1)
+	/*int n;
 	cin >> n;
+	vector<int>arr(n);
+	const int Max_Val = 1e6 + 1;
+	vector<int> Freq(Max_Val, 0);
+	for (int i = 0; i < n; i++)
+	{
+		cin >> arr[i];
+		Freq[arr[i]]++;
+	}
+	for (int i = 0; i < n; i++)
+	{
+		if (Freq[arr[i]] > 0)
+		{
+			cout << "Frequency of " << arr[i] << " is " << Freq[arr[i]] << "\n";
+			Freq[arr[i]] = 0;
+		}
+	}*/
+#pragma endregion
+	 //============================================================
+     #pragma region Freqnccy With Map_Int
+	//With Freqnccy With Map_Int O(1)
+	/*int n,x;
+	cin >> n;
+	map<int, int>m;
 	for (int i = 0; i < n; i++)
 	{
 		cin >> x;
 		m[x]++;
 	}
-	for (auto i : m)
-	{
-		cout << "Frequency of " << "[" << i.first << "]" << ": " << i.second << "\n";
+	for (auto i : m) {
+		cout <<"The Frequecny Of "<< i.first <<" Is : " << i.second << "\n";
 	}*/
-	vector<int> v;
-	int Freq[Max_Val] = {};
-	int n, x;
 
+#pragma endregion
+     //============================================================
+     #pragma region Freqnccy With chars
+	//const int Max_Val = 1e6 + 1;
+	//string s;
+	//cin >> s;
+
+	//vector<int> freq(26, 0);
+
+	//// عدّ الحروف
+	//for (int i = 0; i < s.size(); i++) {
+	//	freq[s[i] - 'a']++;
+	//}
+
+	//// تحقق هل كل الحروف موجودة
+	//for (int i = 0; i < 26; i++) {
+	//	if (freq[i] == 0) {
+	//		cout << "not a pangram\n";
+	//		return 0;
+	//	}
+	//}
+
+	//cout << "pangram\n";
+#pragma endregion
+	 //============================================================
+     #pragma region Find mostOccernce الاكثر ظهورا من array Of String
+    //With Freqnccy With stringWith UnOrderedMap [Find mostOccernce الاكثر ظهورا من array Of String]
+	/*string MostOccerance;
+	unordered_map<string, int>Freq;
+	string s;
+	int n;
 	cin >> n;
-
 	for (int i = 0; i < n; i++)
 	{
-		cin >> x;
-		v.push_back(x);
-		Freq[x]++;
+		cin >> s;
+		Freq[s]++;
+	}
+	int mx = 0;
+	string mostOccurring;
+
+	for (auto& p : Freq) {
+		if (p.second > mx) {
+			mx = p.second;
+			mostOccurring = p.first;
+		}
 	}
 
-
+	cout << "The Most Occerance is: " << mostOccurring << "\n";*/
+#pragma endregion
+	//============================================================
 	return 0;
 }
 
@@ -301,13 +387,13 @@ recipe 3 فقط
 
 كل سؤال = "عد عدد العلامات الصح في الرينج"
 */
-#include<iostream>
-using namespace std;
-int main()
-{
-	
-	return 0;
-}
+//#include<iostream>
+//using namespace std;
+//int main()
+//{
+//	
+//	return 0;
+//}
 #pragma endregion
 
 

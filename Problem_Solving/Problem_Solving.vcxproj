@@ -125,6 +125,13 @@
   <ItemGroup>
     <ClCompile Include="Problem_Solving.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\home\Downloads\Static Range_Query.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\home\Downloads\Example.png" />
+    <Image Include="C:\Users\home\Downloads\ExampleString.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
