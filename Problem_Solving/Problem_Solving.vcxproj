@@ -126,12 +126,17 @@
     <ClCompile Include="Problem_Solving.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="C:\Users\home\Downloads\Backtracking.txt" />
     <Text Include="C:\Users\home\Downloads\Static Range_Query.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\home\Downloads\02.png" />
     <Image Include="C:\Users\home\Downloads\Example.png" />
     <Image Include="C:\Users\home\Downloads\ExampleString.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\home\Downloads\Recursion &amp; Backtracking.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 9_ Bitmasks &amp; iterative complete search.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

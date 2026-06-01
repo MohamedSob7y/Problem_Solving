@@ -439,7 +439,7 @@ recipe 3 فقط
 //}
 #pragma endregion
 //=============================================
-#pragma region BackTracking  
+#pragma region BackTracking Find Subset With Given Sum 
 //#include <iostream>
 //#include <vector>
 //using namespace std;
@@ -513,9 +513,53 @@ recipe 3 فقط
 //}
 #pragma endregion
 //=============================================
-#pragma region Bitwise Operations
+#pragma region Bitwise Operations Find Subset With Given Sum
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//int main() {
+//	vector<int> nums = { 1, 5, 2, 7, 3, 9 };
+//	int target = 6;
+//	int n = nums.size();
+//	int counter = 0;
+//	for (int mask = 0; mask < (1 << n); mask++) {
+//		int sum = 0;
+//		for (int i = 0; i < n; i++) {
+//			if ((mask >> i) & 1) {
+//				sum += nums[i];
+//			}
+//		}
+//		if (sum == target) {
+//			counter++;
+//		}
+//	}
+//	cout << counter << "\n";
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region Graph +DFA+ BFA
 
 #pragma endregion
+//=============================================
+#pragma region Number Thoery
+
+#pragma endregion
+//=============================================
+#pragma region Dynamic Programming
+
+#pragma endregion
+//=============================================
+#pragma region Greedy Algorithm
+
+#pragma endregion
+
+
+
+
+
+
+
 
 
 
