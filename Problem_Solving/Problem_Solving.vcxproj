@@ -129,6 +129,7 @@
     <Text Include="C:\Users\home\Downloads\Static Range_Query.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="C:\Users\home\Downloads\02.png" />
     <Image Include="C:\Users\home\Downloads\Example.png" />
     <Image Include="C:\Users\home\Downloads\ExampleString.png" />
   </ItemGroup>

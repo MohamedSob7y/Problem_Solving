@@ -103,14 +103,14 @@
 #pragma endregion
 //=============================================
 #pragma region Before Frequncy_After FreqnecyWithVectorandMapWithInt_String_Chars
-#include<iostream>
-#include<map>
-#include<vector>
-#include<unordered_map>
-#include<string>
-using namespace std;
-int main()
-{
+//#include<iostream>
+//#include<map>
+//#include<vector>
+//#include<unordered_map>
+//#include<string>
+//using namespace std;
+//int main()
+//{
      #pragma region Before Frequency 
 	//int n;
 	//cin >> n;
@@ -221,8 +221,8 @@ int main()
 	cout << "The Most Occerance is: " << mostOccurring << "\n";*/
 #pragma endregion
 	//============================================================
-	return 0;
-}
+//	return 0;
+//}
 
 
 
@@ -395,6 +395,130 @@ recipe 3 فقط
 //	return 0;
 //}
 #pragma endregion
+//=============================================
+
+
+
+
+#pragma region Problem Tasks in Recursion
+//#include <iostream>
+//#include<vector>
+//#include<algorithm>
+//using namespace std;
+//int main()
+//{
+//
+//	int n, minute;
+//	cin >> n >> minute;
+//	vector<int>tasks(n);
+//	for (int i = 0; i < n; i++)
+//	{
+//		cin >> tasks[i];
+//	}
+//	int count = 0;
+//	sort(tasks.begin(), tasks.end());
+//	for(auto& task : tasks)
+//	{
+//		if(task <= minute)
+//		{
+//			count++;
+//			minute -= task;
+//		}
+//		else
+//		{
+//			break;
+//		}
+//	}
+//	cout << count << "\n";
+//	
+//
+//
+//
+//
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region BackTracking  
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//int n, sum;
+//vector<int> arr;
+//vector<int> path;//الارقام اللى بخترعها بخزنها فى Vector Call Path
+//int CurrentSum = 0;
+////i is Index of Element in Array
+//void solve(int i) {
+//	if (CurrentSum > sum)
+//		return;
+//
+//	if (i == n)//Check لو انا وصلت لاخر الArray عايز اعرف بقا هل Current Sum==Sum الاساسى ولا لاء؟ 
+//	{
+//		if (CurrentSum == sum) {
+//			for (int x : path)
+//				cout << x << ' ';
+//			cout << '\n';
+//		}
+//	}
+//	else {
+//		// option 1: pick
+//		CurrentSum += arr[i];
+//		path.push_back(arr[i]);
+//
+//		solve(i + 1);
+//		//BackTracking رجع تانى عشان Current Sum>Target فكدة عملت return فمش نافع 
+//		//Undo ارجع تانى عشان اخد طريق تانى غيره
+//		CurrentSum -= arr[i];
+//		path.pop_back();
+//
+//		// option 2: leave
+//		solve(i + 1);
+//	}
+//}
+//int main() {
+//	cin >> n >> sum;
+//
+//	arr.resize(n);
+//
+//	for (int i = 0; i < n; i++) {
+//		cin >> arr[i];
+//	}
+//
+//	solve(0);
+//
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region BackTracking With Knapsack
+//#include<iostream>
+//using namespace std;
+//int knapSack(int W, int wt[], int val[], int n) {
+//	// Base Case
+//	if (n == 0 || W == 0)
+//		return 0;
+//
+//	if (wt[n - 1] > W)//Check على اخر عنصر 
+//		return knapSack(W, wt, val, n - 1);
+//	else
+//		return max(
+//			val[n - 1]
+//			+ knapSack(W - wt[n - 1], wt, val, n - 1),//Pick
+//			knapSack(W, wt, val, n - 1)//Leave
+//		);
+//}
+//int main()
+//{
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region Bitwise Operations
+
+#pragma endregion
+
+
+
 
 
 

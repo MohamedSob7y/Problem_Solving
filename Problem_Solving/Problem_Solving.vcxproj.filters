@@ -16,6 +16,9 @@
     <Filter Include="Examples_Slides">
       <UniqueIdentifier>{484dd9e5-a707-45e0-b8dc-149cae234191}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Recursion_Backtracking">
+      <UniqueIdentifier>{b3f60952-53c0-4a95-a0a4-6b12d509db0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem_Solving.cpp">
@@ -33,6 +36,9 @@
     </Image>
     <Image Include="C:\Users\home\Downloads\ExampleString.png">
       <Filter>Examples_Slides</Filter>
+    </Image>
+    <Image Include="C:\Users\home\Downloads\02.png">
+      <Filter>Recursion_Backtracking</Filter>
     </Image>
   </ItemGroup>
 </Project>
