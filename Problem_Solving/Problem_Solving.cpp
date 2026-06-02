@@ -399,7 +399,7 @@ recipe 3 فقط
 
 
 
-
+//After Midterm
 #pragma region Problem Tasks in Recursion
 //#include <iostream>
 //#include<vector>
@@ -539,20 +539,270 @@ recipe 3 فقط
 #pragma endregion
 //=============================================
 #pragma region Graph +DFA+ BFA
-
+//=============================================
+#pragma region Adjecent Matrix For undirected
+//int adj[N][N];
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to;
+//		cin >> from >> to;
+//
+//		adj[from][to] = 1;
+//		adj[to][from] = 1;
+//	}
+//
+//	return 0;
+//}  
 #pragma endregion
 //=============================================
-#pragma region Number Thoery
-
+#pragma region Adjecent Matrix For directed
+//int adj[N][N];
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to;
+//		cin >> from >> to;
+//
+//		adj[from][to] = 1;
+//	}
+//
+//	return 0;
+//}
 #pragma endregion
 //=============================================
-#pragma region Dynamic Programming
-
+#pragma region Adjcent Matrix For Weighted
+//int adj[N][N];
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to, cost;
+//		cin >> from >> to >> cost;
+//
+//		adj[from][to] = cost;
+//	}
+//
+//	return 0;
+//}
 #pragma endregion
 //=============================================
-#pragma region Greedy Algorithm
-
+#pragma region Adjcent List With undirected
+//vector<int> adj[N];
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to;
+//		cin >> from >> to;
+//
+//		adj[from].push_back(to);
+//		adj[to].push_back(from);
+//	}
+//
+//	return 0;
+//}
 #pragma endregion
+//=============================================
+#pragma region Adjcent List With directed Weight
+//vector<pair<int, int>> adj[N];
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to, cost;
+//		cin >> from >> to >> cost;
+//
+//		adj[from].push_back({ to, cost });
+//	}
+//
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region EdgeList
+//#include<iostream>
+//#include<vector>	
+//using namespace std;
+//struct Edge {
+//	int from;
+//	int to;
+//	int cost;
+//};
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	vector<Edge> edgeList;
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to, cost;
+//		cin >> from >> to >> cost;
+//
+//		edgeList.push_back({ from, to, cost });
+//	}
+//
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region DFA Code
+//vector<vector<int>> adj;
+//vector<int> vis;
+//
+//void dfs(int u) {
+//	vis[u] = true;
+//
+//	for (int neig : adj[u]) {
+//		if (!vis[neig]) {
+//			dfs(neig);
+//		}
+//	}
+//}
+#pragma endregion
+//=============================================
+#pragma region DFA Code To Count Connected Components
+//#include <iostream>
+//#include<vector>
+//using namespace std;
+//
+//vector<vector<int>> adj;
+//vector<int> vis;
+//
+//void dfs(int u) {
+//	vis[u] = true;
+//
+//	for (int neig : adj[u]) {
+//		if (!vis[neig]) {
+//			dfs(neig);
+//		}
+//	}
+//}
+//
+//int main() {
+//	int nodes, edges;
+//	cin >> nodes >> edges;
+//
+//	adj.resize(nodes);
+//	vis.assign(nodes, 0);
+//
+//	for (int i = 0; i < edges; ++i) {
+//		int from, to;
+//		cin >> from >> to;
+//
+//		adj[from].push_back(to);
+//		adj[to].push_back(from);
+//	}
+//
+//	int components = 0;
+//
+//	for (int i = 0; i < nodes; ++i) {
+//		if (!vis[i]) {
+//			dfs(i);
+//			components++;
+//		}
+//	}
+//
+//	cout << components << "\n";
+//
+//	return 0;
+//}
+#pragma endregion
+
+//=============================================
+#pragma endregion
+//=============================================
+#pragma region Dynamic Programming Recursive
+#pragma region Solveing Problem With Fibonnaci With DP 
+//#include<iostream>
+//using namespace std;
+//int dp[N];//this is State N
+//int Fib(int i)
+//{
+//	if (i == 0 || i == 1)//Base Case
+//		return 1;
+//	if(dp[i] != -1)
+//		return dp[i];
+//	return dp[i] = Fib(i - 1) + Fib(i - 2); //Recurrence Relation
+//}
+//int main()
+//{
+//	memset(dp, -1, sizeof dp);
+//	int n;
+//	cin >> n;
+//	cout << Fib(n);
+//	return 0;
+//}
+#pragma endregion
+//=============================================
+#pragma region Solving Probelm With Knapsack
+//#include <iostream>
+//using namespace std;
+//
+//const int N = 1005;   // maximum number of items
+//const int W = 1005;   // maximum capacity
+//
+//int n, w;
+//int value[N], weight[N];
+//int dp[N][W];
+//
+//int solve(int i, int curW) {
+//	// Base Case:
+//	// لو مفيش items أو مفيش capacity
+//	if (i == 0 || curW == 0)
+//		return 0;
+//
+//	// لو الحالة اتحسبت قبل كده
+//	if (dp[i][curW] != -1)
+//		return dp[i][curW];
+//
+//	// Option 1: Take item i
+//	int opt1;
+//	if (curW >= weight[i]) {
+//		opt1 = value[i] + solve(i - 1, curW - weight[i]);
+//	}
+//	else {
+//		opt1 = INT_MIN; // مينفعش ناخده
+//	}
+//
+//	// Option 2: Leave item i
+//	int opt2 = solve(i - 1, curW);
+//
+//	// نختار الأفضل
+//	return dp[i][curW] = max(opt1, opt2);
+//}
+//
+//int main() {
+//	cin >> n >> w;
+//
+//	for (int i = 1; i <= n; i++) {
+//		cin >> weight[i] >> value[i];
+//	}
+//
+//	memset(dp, -1, sizeof dp);
+//
+//	cout << solve(n, w) << endl;
+//
+//	return 0;
+//}
+#pragma endregion
+
+//=============================================
+#pragma endregion
+//=============================================
 
 
 

@@ -135,7 +135,11 @@
     <Image Include="C:\Users\home\Downloads\ExampleString.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\home\Downloads\Intro to Graphs &amp; DFS.pdf" />
+    <None Include="C:\Users\home\Downloads\Iterative DP.docx.pdf" />
     <None Include="C:\Users\home\Downloads\Recursion &amp; Backtracking.pdf" />
+    <None Include="C:\Users\home\Downloads\Recursive DP.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 2_ BFS.pdf" />
     <None Include="C:\Users\home\Downloads\Week 9_ Bitmasks &amp; iterative complete search.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

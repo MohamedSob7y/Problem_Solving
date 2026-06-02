@@ -22,9 +22,6 @@
     <Filter Include="Bitwise Operation">
       <UniqueIdentifier>{f103eb12-f99c-4b9b-a4ec-bd98da8658b9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Greedy Algorithm">
-      <UniqueIdentifier>{4511d3cf-4a45-4ff9-b3f7-e62aa041f1fd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Number Thoery">
       <UniqueIdentifier>{bf807f40-9c56-404e-bf76-d0dbab86c28e}</UniqueIdentifier>
     </Filter>
@@ -65,6 +62,18 @@
     </None>
     <None Include="C:\Users\home\Downloads\Week 9_ Bitmasks &amp; iterative complete search.pdf">
       <Filter>Bitwise Operation</Filter>
+    </None>
+    <None Include="C:\Users\home\Downloads\Intro to Graphs &amp; DFS.pdf">
+      <Filter>Graph_DFA_BFa</Filter>
+    </None>
+    <None Include="C:\Users\home\Downloads\Week 2_ BFS.pdf">
+      <Filter>Graph_DFA_BFa</Filter>
+    </None>
+    <None Include="C:\Users\home\Downloads\Iterative DP.docx.pdf">
+      <Filter>Dynamic Programming</Filter>
+    </None>
+    <None Include="C:\Users\home\Downloads\Recursive DP.pdf">
+      <Filter>Dynamic Programming</Filter>
     </None>
   </ItemGroup>
 </Project>
