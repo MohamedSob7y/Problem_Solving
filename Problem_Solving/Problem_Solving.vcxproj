@@ -125,6 +125,20 @@
   <ItemGroup>
     <ClCompile Include="Problem_Solving.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\home\Downloads\Static Range_Query.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\home\Downloads\Example.png" />
+    <Image Include="C:\Users\home\Downloads\ExampleString.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\home\Downloads\Week 1_ Introduction.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 2_ Conditions.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 3_ Loops.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 4_ Arrays.pdf" />
+    <None Include="C:\Users\home\Downloads\Week 5_ Char Arrays vs Strings.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
