@@ -16,20 +16,11 @@
     <Filter Include="Examples_Slides">
       <UniqueIdentifier>{484dd9e5-a707-45e0-b8dc-149cae234191}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Recursion_Backtracking">
-      <UniqueIdentifier>{b3f60952-53c0-4a95-a0a4-6b12d509db0f}</UniqueIdentifier>
+    <Filter Include="STLS">
+      <UniqueIdentifier>{15a8640b-b4d9-4e2d-a41f-8dbe27f73975}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Bitwise Operation">
-      <UniqueIdentifier>{f103eb12-f99c-4b9b-a4ec-bd98da8658b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Number Thoery">
-      <UniqueIdentifier>{bf807f40-9c56-404e-bf76-d0dbab86c28e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Dynamic Programming">
-      <UniqueIdentifier>{9e75e92e-54a9-4c62-91f4-61ef4ef18545}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Graph_DFA_BFa">
-      <UniqueIdentifier>{be72715b-e502-4946-9061-60653f2583a3}</UniqueIdentifier>
+    <Filter Include="Basics">
+      <UniqueIdentifier>{3aa8177b-9dec-4dfa-bce1-17304c5588f5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -41,9 +32,6 @@
     <Text Include="C:\Users\home\Downloads\Static Range_Query.txt">
       <Filter>Examples_Slides</Filter>
     </Text>
-    <Text Include="C:\Users\home\Downloads\Backtracking.txt">
-      <Filter>Recursion_Backtracking</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\home\Downloads\Example.png">
@@ -52,28 +40,22 @@
     <Image Include="C:\Users\home\Downloads\ExampleString.png">
       <Filter>Examples_Slides</Filter>
     </Image>
-    <Image Include="C:\Users\home\Downloads\02.png">
-      <Filter>Recursion_Backtracking</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\home\Downloads\Recursion &amp; Backtracking.pdf">
-      <Filter>Recursion_Backtracking</Filter>
+    <None Include="C:\Users\home\Downloads\Week 3_ Loops.pdf">
+      <Filter>Basics</Filter>
     </None>
-    <None Include="C:\Users\home\Downloads\Week 9_ Bitmasks &amp; iterative complete search.pdf">
-      <Filter>Bitwise Operation</Filter>
+    <None Include="C:\Users\home\Downloads\Week 5_ Char Arrays vs Strings.pdf">
+      <Filter>Basics</Filter>
     </None>
-    <None Include="C:\Users\home\Downloads\Intro to Graphs &amp; DFS.pdf">
-      <Filter>Graph_DFA_BFa</Filter>
+    <None Include="C:\Users\home\Downloads\Week 4_ Arrays.pdf">
+      <Filter>Basics</Filter>
     </None>
-    <None Include="C:\Users\home\Downloads\Week 2_ BFS.pdf">
-      <Filter>Graph_DFA_BFa</Filter>
+    <None Include="C:\Users\home\Downloads\Week 1_ Introduction.pdf">
+      <Filter>Basics</Filter>
     </None>
-    <None Include="C:\Users\home\Downloads\Iterative DP.docx.pdf">
-      <Filter>Dynamic Programming</Filter>
-    </None>
-    <None Include="C:\Users\home\Downloads\Recursive DP.pdf">
-      <Filter>Dynamic Programming</Filter>
+    <None Include="C:\Users\home\Downloads\Week 2_ Conditions.pdf">
+      <Filter>Basics</Filter>
     </None>
   </ItemGroup>
 </Project>
